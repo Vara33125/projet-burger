@@ -6,5 +6,5 @@ $(document).ready(function () {
   const price = params.get("price");
   const img = params.get("image");
   $("#image").attr("src", `./${img}`);
-  $("#price").text(price);
+  $("#price").text(price + "€" );
   $("#title").append(name);});
